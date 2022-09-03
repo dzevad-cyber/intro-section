@@ -1,0 +1,15 @@
+.cta {
+  font-size: 1.6rem;
+  color: var(--clr-neutral-almost-white);
+  background-color: var(--clr-neutral-almost-black);
+  padding: 1.5rem 3rem;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.cta:hover {
+  color: var(--clr-neutral-almost-black);
+  outline: 1px solid var(--clr-neutral-almost-black);
+  background-color: transparent;
+}

@@ -1,0 +1,43 @@
+.main {
+  display: grid;
+  row-gap: 1.5rem;
+
+  padding-inline: 1rem;
+  padding-top: 5rem;
+}
+
+.title {
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.text {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: var(--clr-neutral-medium-gray);
+  max-width: 36ch;
+  justify-self: center;
+}
+
+.button_wrapper {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  display: grid;
+  justify-items: center;
+}
+
+.clientsImgs {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+
+.clientsImgs > * {
+  grid-auto-flow: column;
+  width: 70px;
+}
+
+.title,
+.text {
+  text-align: center;
+}

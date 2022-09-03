@@ -1,9 +1,13 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
 import styles from './App.module.css';
 
+import Home from './pages/landing-page/Home';
+
 function App() {
-  return <div className='app'>hello world</div>;
+  return (
+    <div className={styles.app}>
+      <Home />
+    </div>
+  );
 }
 
 export default App;

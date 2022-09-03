@@ -12,7 +12,7 @@
   --clr-neutral-almost-black: hsl(0, 0%, 8%);
 
   /* # Typography */
-  --fz-body: 1.8rem;
+  --fs-body: 1.8rem;
   --ff-epiloque: 'Epilogue', sans-serif;
   --fw-medium: 500;
   --fw-bold: 700;
